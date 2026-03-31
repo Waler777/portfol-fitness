@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.5, viewport-fit=cover">
+    <meta name="description" content="Йога в ELITE FITNESS — хатха, виньяса, аштанга, медитация. Занятия для всех уровней подготовки.">
+    <title>Йога | ELITE FITNESS</title>
+
+    <link rel="icon" href="img/fav.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <section class="page-hero page-hero--yoga">
+        <div class="page-hero__overlay"></div>
+        <div class="page-hero__content">
+            <h1 class="page-hero__title fade-in">Йога</h1>
+            <p class="page-hero__subtitle fade-in">
+                Гармония тела и духа через древние практики
+            </p>
+            <a href="#booking" class="btn btn--primary btn--large fade-in">
+                <span>Записаться</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="section" id="about-yoga">
+        <div class="container">
+            <div class="yoga-intro">
+                <div class="yoga-intro__content slide-up">
+                    <h2 class="yoga-intro__title">Почему йога?</h2>
+                    <p class="yoga-intro__text">
+                        Йога — это не просто физические упражнения, это целостная система развития тела и сознания. 
+                        Регулярная практика помогает обрести внутреннее равновесие, улучшить гибкость, укрепить мышцы 
+                        и научиться управлять своим дыханием и эмоциями.
+                    </p>
+                    <div class="yoga-benefits">
+                        <div class="yoga-benefit">
+                            <i class="fas fa-heart"></i>
+                            <span>Снижение стресса</span>
+                        </div>
+                        <div class="yoga-benefit">
+                            <i class="fas fa-child"></i>
+                            <span>Улучшение гибкости</span>
+                        </div>
+                        <div class="yoga-benefit">
+                            <i class="fas fa-brain"></i>
+                            <span>Ясность ума</span>
+                        </div>
+                        <div class="yoga-benefit">
+                            <i class="fas fa-lungs"></i>
+                            <span>Правильное дыхание</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="yoga-intro__image slide-up" style="transition-delay: 0.2s">
+                    <img src="img/g-yog.jpg" alt="Йога" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--color-bg-secondary);" id="directions">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Направления йоги</h2>
+                <p class="section-subtitle">
+                    Выберите практику, которая подходит именно вам
+                </p>
+            </div>
+            
+            <div class="yoga-directions-grid">
+                <div class="yoga-direction-card slide-up">
+                    <div class="yoga-direction-card__icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3 class="yoga-direction-card__title">Хатха-йога</h3>
+                    <p class="yoga-direction-card__text">
+                        Классическая йога, основа всех направлений. Статичные асаны, пранаяма и медитация. 
+                        Идеально для начинающих и тех, кто хочет углубить практику.
+                    </p>
+                    <div class="yoga-direction-card__level">
+                        <span class="level-badge level-badge--beginner">Для начинающих</span>
+                    </div>
+                </div>
+                
+                <div class="yoga-direction-card slide-up" style="transition-delay: 0.1s">
+                    <div class="yoga-direction-card__icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3 class="yoga-direction-card__title">Виньяса-йога</h3>
+                    <p class="yoga-direction-card__text">
+                        Динамичная практика, где движения синхронизированы с дыханием. 
+                        Плавные переходы между асанами создают медитативный поток.
+                    </p>
+                    <div class="yoga-direction-card__level">
+                        <span class="level-badge level-badge--intermediate">Средний уровень</span>
+                    </div>
+                </div>
+                
+                <div class="yoga-direction-card slide-up" style="transition-delay: 0.2s">
+                    <div class="yoga-direction-card__icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 class="yoga-direction-card__title">Аштанга-йога</h3>
+                    <p class="yoga-direction-card__text">
+                        Силовая динамическая практика с фиксированной последовательностью асан. 
+                        Для тех, кто любит интенсивные тренировки и дисциплину.
+                    </p>
+                    <div class="yoga-direction-card__level">
+                        <span class="level-badge level-badge--advanced">Продвинутый</span>
+                    </div>
+                </div>
+                
+                <div class="yoga-direction-card slide-up" style="transition-delay: 0.3s">
+                    <div class="yoga-direction-card__icon">
+                        <i class="fas fa-bed"></i>
+                    </div>
+                    <h3 class="yoga-direction-card__title">Yin Yoga</h3>
+                    <p class="yoga-direction-card__text">
+                        Медленная практика с длительным удержанием асан (3-5 минут). 
+                        Глубокая растяжка и работа с соединительными тканями.
+                    </p>
+                    <div class="yoga-direction-card__level">
+                        <span class="level-badge level-badge--all">Все уровни</span>
+                    </div>
+                </div>
+                
+                <div class="yoga-direction-card slide-up" style="transition-delay: 0.4s">
+                    <div class="yoga-direction-card__icon">
+                        <i class="fas fa-om"></i>
+                    </div>
+                    <h3 class="yoga-direction-card__title">Медитация</h3>
+                    <p class="yoga-direction-card__text">
+                        Практики осознанности, дыхательные техники и работа с вниманием. 
+                        Для развития внутреннего спокойствия и концентрации.
+                    </p>
+                    <div class="yoga-direction-card__level">
+                        <span class="level-badge level-badge--all">Все уровни</span>
+                    </div>
+                </div>
+                
+                <div class="yoga-direction-card slide-up" style="transition-delay: 0.5s">
+                    <div class="yoga-direction-card__icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3 class="yoga-direction-card__title">Аквайога</h3>
+                    <p class="yoga-direction-card__text">
+                        Уникальное сочетание йоги и упражнений в воде. 
+                        Невесомость позволяет глубже войти в асаны.
+                    </p>
+                    <div class="yoga-direction-card__level">
+                        <span class="level-badge level-badge--all">Все уровни</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="schedule-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Расписание занятий</h2>
+                <p class="section-subtitle">
+                    Занятия проходят ежедневно в уютном зале с панорамными окнами
+                </p>
+            </div>
+            
+            <div class="yoga-schedule-grid">
+                <div class="yoga-schedule-day slide-up">
+                    <h3 class="yoga-schedule-day__title">Понедельник</h3>
+                    <div class="yoga-schedule-list">
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">07:00</span>
+                            <span class="yoga-schedule-item__class">Утренняя йога</span>
+                            <span class="yoga-schedule-item__teacher">Анна Петрова</span>
+                        </div>
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">13:00</span>
+                            <span class="yoga-schedule-item__class">Хатха-йога</span>
+                            <span class="yoga-schedule-item__teacher">Анна Петрова</span>
+                        </div>
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">20:00</span>
+                            <span class="yoga-schedule-item__class">Вечерняя медитация</span>
+                            <span class="yoga-schedule-item__teacher">Анна Петрова</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="yoga-schedule-day slide-up" style="transition-delay: 0.1s">
+                    <h3 class="yoga-schedule-day__title">Среда</h3>
+                    <div class="yoga-schedule-list">
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">07:00</span>
+                            <span class="yoga-schedule-item__class">Виньяса-йога</span>
+                            <span class="yoga-schedule-item__teacher">Анна Петрова</span>
+                        </div>
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">14:00</span>
+                            <span class="yoga-schedule-item__class">Yin Yoga</span>
+                            <span class="yoga-schedule-item__teacher">Мария Сидорова</span>
+                        </div>
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">19:00</span>
+                            <span class="yoga-schedule-item__class">Хатха-йога</span>
+                            <span class="yoga-schedule-item__teacher">Анна Петрова</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="yoga-schedule-day slide-up" style="transition-delay: 0.2s">
+                    <h3 class="yoga-schedule-day__title">Пятница</h3>
+                    <div class="yoga-schedule-list">
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">08:00</span>
+                            <span class="yoga-schedule-item__class">Аштанга-йога</span>
+                            <span class="yoga-schedule-item__teacher">Анна Петрова</span>
+                        </div>
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">15:00</span>
+                            <span class="yoga-schedule-item__class">Медитация</span>
+                            <span class="yoga-schedule-item__teacher">Мария Сидорова</span>
+                        </div>
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">20:00</span>
+                            <span class="yoga-schedule-item__class">Yin Yoga</span>
+                            <span class="yoga-schedule-item__teacher">Анна Петрова</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="yoga-schedule-day slide-up" style="transition-delay: 0.3s">
+                    <h3 class="yoga-schedule-day__title">Суббота</h3>
+                    <div class="yoga-schedule-list">
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">10:00</span>
+                            <span class="yoga-schedule-item__class">Хатха-йога</span>
+                            <span class="yoga-schedule-item__teacher">Анна Петрова</span>
+                        </div>
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">14:00</span>
+                            <span class="yoga-schedule-item__class">Аштанга-йога</span>
+                            <span class="yoga-schedule-item__teacher">Анна Петрова</span>
+                        </div>
+                        <div class="yoga-schedule-item">
+                            <span class="yoga-schedule-item__time">18:00</span>
+                            <span class="yoga-schedule-item__class">Медитация и растяжка</span>
+                            <span class="yoga-schedule-item__teacher">Мария Сидорова</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="yoga-schedule-note slide-up">
+                <p><i class="fas fa-info-circle"></i> Полное расписание доступно на <a href="index.html#schedule">главной странице</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--color-bg-secondary);" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Галерея</h2>
+                <p class="section-subtitle">
+                    Наш зал для занятий йогой
+                </p>
+            </div>
+            
+            <div class="yoga-gallery-grid">
+                <div class="yoga-gallery-item slide-up">
+                    <img src="img/g-yog1.jpg" alt="Зал йоги" loading="lazy">
+                </div>
+                <div class="yoga-gallery-item slide-up" style="transition-delay: 0.1s">
+                    <img src="img/g-yog2.jpg" alt="Медитация" loading="lazy">
+                </div>
+                <div class="yoga-gallery-item slide-up" style="transition-delay: 0.2s">
+                    <img src="img/g-yog3.jpg" alt="Практика" loading="lazy">
+                </div>
+                <div class="yoga-gallery-item slide-up" style="transition-delay: 0.3s">
+                    <img src="img/g-yog4.jpg" alt="Асаны" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="yoga-trainers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши инструкторы</h2>
+                <p class="section-subtitle">
+                    Опытные преподаватели с глубоким пониманием практики
+                </p>
+            </div>
+
+            <div class="team-grid">
+                <!-- Карточки тренеров загружаются динамически из data/trainers.json -->
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--color-bg-secondary);" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Запись на занятия</h2>
+                <p class="section-subtitle">
+                    Оставьте заявку и мы свяжемся с вами для подтверждения времени
+                </p>
+            </div>
+            
+            <div class="booking-form-wrapper slide-up">
+                <form class="booking-form" id="yogaBookingForm">
+                    <div class="booking-form__row">
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Ваше имя *</label>
+                            <input type="text" class="booking-form__input" name="name" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Телефон *</label>
+                            <input type="tel" class="booking-form__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Email</label>
+                            <input type="email" class="booking-form__input" name="email" placeholder="example@mail.ru">
+                        </div>
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Желаемая дата</label>
+                            <input type="date" class="booking-form__input" name="date">
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group booking-form__group--full">
+                            <label class="booking-form__label">Выберите услугу</label>
+                            <select class="booking-form__select" name="service">
+                                <option value="">Выберите из списка</option>
+                                <option value="hatha">Хатха-йога</option>
+                                <option value="vinyasa">Виньяса-йога</option>
+                                <option value="ashtanga">Аштанга-йога</option>
+                                <option value="yin">Йин-йога</option>
+                                <option value="meditation">Медитация</option>
+                                <option value="beginners">Йога для начинающих</option>
+                                <option value="relax">Релакс-йога</option>
+                                <option value="private">Персональная тренировка</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group booking-form__group--full">
+                            <label class="booking-form__label">Комментарий</label>
+                            <textarea class="booking-form__textarea" name="comment" rows="4" placeholder="Пожелания по времени, особые предпочтения..."></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__submit">
+                        <button type="submit" class="btn btn--primary btn--large">
+                            <span>Записаться</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <p class="booking-form__disclaimer">
+                            Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta section">
+        <div class="container">
+            <div class="cta__content">
+                <h2 class="cta__title">Начните путь к гармонии</h2>
+                <p class="cta__text">Первое занятие йогой — бесплатно</p>
+                <form class="cta__form" id="ctaForm">
+                    <div class="cta__form-row">
+                        <input type="text" class="cta__input" placeholder="Ваше имя" name="name" required>
+                        <input type="tel" class="cta__input" placeholder="+7 (___) ___-__-__" name="phone" required>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--large">
+                        <span>Записаться</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+                <p class="cta__disclaimer">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <!-- ==================== MODAL ==================== -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <button class="modal__close" id="modalClose" aria-label="Закрыть">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal__content">
+                <h3 class="modal__title">Заполните форму и мы перезвоним вам</h3>
+                <p class="modal__subtitle" id="modalTrainerName"></p>
+                <form class="modal__form" id="modalForm">
+                    <div class="modal__group">
+                        <label class="modal__label">Ваше имя *</label>
+                        <input type="text" class="modal__input" name="name" placeholder="Иван Иванов" required>
+                    </div>
+                    <div class="modal__group">
+                        <label class="modal__label">Телефон *</label>
+                        <input type="tel" class="modal__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full btn--large">
+                        <span>Отправить</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/trainers.js"></script>
+</body>
+</html>

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.5, viewport-fit=cover">
+    <meta name="description" content="Бассейн ELITE FITNESS — 25-метровый бассейн с подогревом, аквааэробика, персональные тренировки по плаванию.">
+    <title>Бассейн | ELITE FITNESS</title>
+
+    <link rel="icon" href="img/fav.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <section class="page-hero page-hero--pool">
+        <div class="page-hero__overlay"></div>
+        <div class="page-hero__content">
+            <h1 class="page-hero__title fade-in">Бассейн</h1>
+            <p class="page-hero__subtitle fade-in">
+                25-метровый бассейн с системой очистки морской водой
+            </p>
+            <a href="#booking" class="btn btn--primary btn--large fade-in">
+                <span>Записаться</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="section" id="pool-info">
+        <div class="container">
+            <div class="pool-features">
+                <div class="pool-feature slide-up">
+                    <div class="pool-feature__icon">
+                        <i class="fas fa-ruler-horizontal"></i>
+                    </div>
+                    <h3 class="pool-feature__title">25 метров</h3>
+                    <p class="pool-feature__text">Длина бассейна для комфортных тренировок</p>
+                </div>
+                
+                <div class="pool-feature slide-up" style="transition-delay: 0.1s">
+                    <div class="pool-feature__icon">
+                        <i class="fas fa-temperature-high"></i>
+                    </div>
+                    <h3 class="pool-feature__title">28°C</h3>
+                    <p class="pool-feature__text">Комфортная температура воды</p>
+                </div>
+                
+                <div class="pool-feature slide-up" style="transition-delay: 0.2s">
+                    <div class="pool-feature__icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3 class="pool-feature__title">Морская вода</h3>
+                    <p class="pool-feature__text">Система очистки с морской солью</p>
+                </div>
+                
+                <div class="pool-feature slide-up" style="transition-delay: 0.3s">
+                    <div class="pool-feature__icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="pool-feature__title">6 дорожек</h3>
+                    <p class="pool-feature__text">Для свободного плавания</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--color-bg-secondary);" id="pool-activities">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Занятия в бассейне</h2>
+                <p class="section-subtitle">
+                    Выберите подходящий формат тренировок
+                </p>
+            </div>
+            
+            <div class="activities-grid">
+                <div class="activity-card slide-up">
+                    <div class="activity-card__image">
+                        <img src="img/g-pool0.jpg" alt="Свободное плавание" loading="lazy">
+                    </div>
+                    <div class="activity-card__content">
+                        <h3 class="activity-card__title">Свободное плавание</h3>
+                        <p class="activity-card__text">
+                            Посещение бассейна в свободном режиме. Плавайте в своём темпе, когда удобно вам.
+                        </p>
+                        <span class="activity-card__schedule">
+                            <i class="fas fa-clock"></i> Ежедневно, 7:00 — 22:00
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="activity-card slide-up" style="transition-delay: 0.1s">
+                    <div class="activity-card__image">
+                        <img src="img/g-pool1.jpg" alt="Аквааэробика" loading="lazy">
+                    </div>
+                    <div class="activity-card__content">
+                        <h3 class="activity-card__title">Аквааэробика</h3>
+                        <p class="activity-card__text">
+                            Групповые занятия в воде. Эффективная тренировка для всех групп мышц без нагрузки на суставы.
+                        </p>
+                        <span class="activity-card__schedule">
+                            <i class="fas fa-clock"></i> Пн, Ср, Пт, 12:00
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="activity-card slide-up" style="transition-delay: 0.2s">
+                    <div class="activity-card__image">
+                        <img src="img/g-pool2.avif" alt="Спортивное плавание" loading="lazy">
+                    </div>
+                    <div class="activity-card__content">
+                        <h3 class="activity-card__title">Спортивное плавание</h3>
+                        <p class="activity-card__text">
+                            Тренировки для тех, кто хочет улучшить технику и увеличить скорость плавания.
+                        </p>
+                        <span class="activity-card__schedule">
+                            <i class="fas fa-clock"></i> Вт, Чт, 11:00
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="activity-card slide-up" style="transition-delay: 0.3s">
+                    <div class="activity-card__image">
+                        <img src="img/g-pool3.jpg" alt="Аквайога" loading="lazy">
+                    </div>
+                    <div class="activity-card__content">
+                        <h3 class="activity-card__title">Аквайога</h3>
+                        <p class="activity-card__text">
+                            Уникальное сочетание йоги и упражнений в воде. Расслабление и укрепление мышц.
+                        </p>
+                        <span class="activity-card__schedule">
+                            <i class="fas fa-clock"></i> Пт, 7:00
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="pool-trainers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Тренеры по плаванию</h2>
+                <p class="section-subtitle">
+                    Научат плавать с нуля или улучшить технику
+                </p>
+            </div>
+
+            <div class="team-grid">
+                <!-- Карточки тренеров загружаются динамически из data/trainers.json -->
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--color-bg-secondary);" id="pool-pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Посещение бассейна</h2>
+                <p class="section-subtitle">
+                    Варианты посещения бассейна
+                </p>
+            </div>
+            
+            <div class="pool-pricing-grid" id="poolPricingGrid">
+                <div class="pool-pricing-card slide-up" data-plan="single">
+                    <h3 class="pool-pricing-card__title">Разовое посещение</h3>
+                    <p class="pool-pricing-card__duration">45 минут</p>
+                    <div class="pool-pricing-card__price">
+                        <span class="pool-pricing-card__amount">800</span>
+                        <span class="pool-pricing-card__currency">₽</span>
+                    </div>
+                    <ul class="pool-pricing-card__features">
+                        <li><i class="fas fa-check"></i> Посещение бассейна</li>
+                        <li><i class="fas fa-check"></i> Шапочка в подарок</li>
+                        <li><i class="fas fa-check"></i> Душевые принадлежности</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full pool-pricing-card__btn" data-plan="Разовое посещение" data-price="800" data-period="/посещение">
+                        <span>Купить</span>
+                    </button>
+                </div>
+
+                <div class="pool-pricing-card pool-pricing-card--popular slide-up selected" style="transition-delay: 0.1s" data-plan="subscription">
+                    <div class="pool-pricing-card__badge">Выгодно</div>
+                    <h3 class="pool-pricing-card__title">Абонемент</h3>
+                    <p class="pool-pricing-card__duration">8 посещений</p>
+                    <div class="pool-pricing-card__price">
+                        <span class="pool-pricing-card__amount">5 600</span>
+                        <span class="pool-pricing-card__currency">₽</span>
+                    </div>
+                    <ul class="pool-pricing-card__features">
+                        <li><i class="fas fa-check"></i> 8 посещений бассейна</li>
+                        <li><i class="fas fa-check"></i> Действует 30 дней</li>
+                        <li><i class="fas fa-check"></i> Заморозка на 7 дней</li>
+                        <li><i class="fas fa-check"></i> Скидка на SPA 10%</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full pool-pricing-card__btn" data-plan="Абонемент" data-price="5 600" data-period="/8 посещений">
+                        <span>Купить</span>
+                    </button>
+                </div>
+
+                <div class="pool-pricing-card slide-up" style="transition-delay: 0.2s" data-plan="unlimited">
+                    <h3 class="pool-pricing-card__title">Безлимит</h3>
+                    <p class="pool-pricing-card__duration">1 месяц</p>
+                    <div class="pool-pricing-card__price">
+                        <span class="pool-pricing-card__amount">9 900</span>
+                        <span class="pool-pricing-card__currency">₽</span>
+                    </div>
+                    <ul class="pool-pricing-card__features">
+                        <li><i class="fas fa-check"></i> Безлимитное посещение</li>
+                        <li><i class="fas fa-check"></i> Включает групповые занятия</li>
+                        <li><i class="fas fa-check"></i> Гостевой визит</li>
+                        <li><i class="fas fa-check"></i> Скидка на SPA 15%</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full pool-pricing-card__btn" data-plan="Безлимит" data-price="9 900" data-period="/мес">
+                        <span>Купить</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--color-bg-secondary);" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Запись на занятия</h2>
+                <p class="section-subtitle">
+                    Оставьте заявку и мы свяжемся с вами для подтверждения времени
+                </p>
+            </div>
+            
+            <div class="booking-form-wrapper slide-up">
+                <form class="booking-form" id="poolBookingForm">
+                    <div class="booking-form__row">
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Ваше имя *</label>
+                            <input type="text" class="booking-form__input" name="name" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Телефон *</label>
+                            <input type="tel" class="booking-form__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Email</label>
+                            <input type="email" class="booking-form__input" name="email" placeholder="example@mail.ru">
+                        </div>
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Желаемая дата</label>
+                            <input type="date" class="booking-form__input" name="date">
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group booking-form__group--full">
+                            <label class="booking-form__label">Выберите услугу</label>
+                            <select class="booking-form__select" name="service">
+                                <option value="">Выберите из списка</option>
+                                <option value="swimming">Обучение плаванию</option>
+                                <option value="aqua">Аквааэробика</option>
+                                <option value="yoga">Аквайога</option>
+                                <option value="free">Свободное плавание</option>
+                                <option value="children">Детское плавание</option>
+                                <option value="therapy">Лечебное плавание</option>
+                                <option value="competition">Подготовка к соревнованиям</option>
+                                <option value="triathlon">Триатлон</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group booking-form__group--full">
+                            <label class="booking-form__label">Комментарий</label>
+                            <textarea class="booking-form__textarea" name="comment" rows="4" placeholder="Пожелания по времени, особые предпочтения..."></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__submit">
+                        <button type="submit" class="btn btn--primary btn--large">
+                            <span>Записаться</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <p class="booking-form__disclaimer">
+                            Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <!-- ==================== POOL PRICING MODAL ==================== -->
+    <div class="modal" id="poolPricingModal">
+        <div class="modal__overlay"></div>
+        <div class="modal__container">
+            <div class="modal__content">
+                <button class="modal__close" aria-label="Закрыть">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <div class="modal__header">
+                    <h2 class="modal__title">Запись на посещение</h2>
+                    <p class="modal__subtitle">Оставьте заявку и мы свяжемся с вами</p>
+                </div>
+
+                <div class="modal__plan-info">
+                    <div class="modal__plan-name">
+                        <i class="fas fa-tag"></i>
+                        <span id="poolModalPlanName">Тариф</span>
+                    </div>
+                    <div class="modal__plan-price">
+                        <span id="poolModalPlanPrice">0 ₽</span>
+                        <span id="poolModalPlanPeriod"></span>
+                    </div>
+                </div>
+
+                <form class="modal__form" id="poolModalForm">
+                    <div class="modal__form-group">
+                        <label class="modal__label" for="poolModalName">Ваше имя *</label>
+                        <input
+                            type="text"
+                            id="poolModalName"
+                            name="name"
+                            class="modal__input"
+                            placeholder="Иван Иванов"
+                            required
+                        >
+                    </div>
+
+                    <div class="modal__form-group">
+                        <label class="modal__label" for="poolModalPhone">Телефон *</label>
+                        <input
+                            type="tel"
+                            id="poolModalPhone"
+                            name="phone"
+                            class="modal__input"
+                            placeholder="+7 (___) ___-__-__"
+                            required
+                        >
+                    </div>
+
+                    <div class="modal__form-group">
+                        <label class="modal__label" for="poolModalEmail">Email</label>
+                        <input
+                            type="email"
+                            id="poolModalEmail"
+                            name="email"
+                            class="modal__input"
+                            placeholder="example@mail.ru"
+                        >
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--large btn--full">
+                        <span>Отправить заявку</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+
+                    <p class="modal__disclaimer">
+                        Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== MODAL ==================== -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <button class="modal__close" id="modalClose" aria-label="Закрыть">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal__content">
+                <h3 class="modal__title">Заполните форму и мы перезвоним вам</h3>
+                <p class="modal__subtitle" id="modalTrainerName"></p>
+                <form class="modal__form" id="modalForm">
+                    <div class="modal__group">
+                        <label class="modal__label">Ваше имя *</label>
+                        <input type="text" class="modal__input" name="name" placeholder="Иван Иванов" required>
+                    </div>
+                    <div class="modal__group">
+                        <label class="modal__label">Телефон *</label>
+                        <input type="tel" class="modal__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full btn--large">
+                        <span>Отправить</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/trainers.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+{
+  "trainers": [
+    {
+      "id": "gym-1",
+      "name": "Михаил Сидоров",
+      "image": "img/m-2.png",
+      "direction": "Тренажёрный зал",
+      "directions": ["gym"],
+      "experience": "10 лет",
+      "specialties": ["Силовой тренинг", "Кроссфит", "Набор мышечной массы", "Спортивное питание"]
+    },
+    {
+      "id": "gym-2",
+      "name": "Алексей Новиков",
+      "image": "img/m-1.png",
+      "direction": "Тренажёрный зал",
+      "directions": ["gym"],
+      "experience": "7 лет",
+      "specialties": ["Функциональный тренинг", "HIIT", "Похудение", "Выносливость"]
+    },
+    {
+      "id": "gym-3",
+      "name": "Дмитрий Орлов",
+      "image": "img/m-4.png",
+      "direction": "Тренажёрный зал",
+      "directions": ["gym"],
+      "experience": "9 лет",
+      "specialties": ["Пауэрлифтинг", "Силовая подготовка", "Работа со свободными весами", "Травмопрофилактика"]
+    },
+    {
+      "id": "gym-4",
+      "name": "Светлана Калинина",
+      "image": "img/g-1.png",
+      "direction": "Тренажёрный зал",
+      "directions": ["gym"],
+      "experience": "5 лет",
+      "specialties": ["Коррекция фигуры", "Реабилитационный фитнес", "ЛФК", "Постуральная коррекция"]
+    },
+    {
+      "id": "gym-5",
+      "name": "Роман Кузнецов",
+      "image": "img/m-3.png",
+      "direction": "Тренажёрный зал",
+      "directions": ["gym"],
+      "experience": "8 лет",
+      "specialties": ["Бодибилдинг", "Спортивная физиология", "Периодизация тренировок", "Подготовка к соревнованиям"]
+    },
+    {
+      "id": "pool-1",
+      "name": "Дмитрий Волков",
+      "image": "img/m-6.png",
+      "direction": "Бассейн",
+      "directions": ["pool"],
+      "experience": "12 лет",
+      "specialties": ["Спортивное плавание", "Техника кроля и брасса", "Подготовка к соревнованиям", "Плавание для взрослых"]
+    },
+    {
+      "id": "pool-2",
+      "name": "Елена Козлова",
+      "image": "img/g-2.png",
+      "direction": "Бассейн",
+      "directions": ["pool"],
+      "experience": "8 лет",
+      "specialties": ["Аквааэробика", "Аквайога", "Восстановительные программы", "Плавание для беременных"]
+    },
+    {
+      "id": "pool-3",
+      "name": "Андрей Морозов",
+      "image": "img/m-5.png",
+      "direction": "Бассейн",
+      "directions": ["pool"],
+      "experience": "10 лет",
+      "specialties": ["Обучение плаванию с нуля", "Детское плавание", "Исправление техники", "Триатлон"]
+    },
+    {
+      "id": "pool-4",
+      "name": "Наталья Соколова",
+      "image": "img/g-33.png",
+      "direction": "Бассейн",
+      "directions": ["pool"],
+      "experience": "6 лет",
+      "specialties": ["Синхронное плавание", "Аквафитнес", "Укрепление мышц кора", "Дыхательные техники"]
+    },
+    {
+      "id": "pool-5",
+      "name": "Сергей Лебедев",
+      "image": "img/mm-1.jpg",
+      "direction": "Бассейн",
+      "directions": ["pool"],
+      "experience": "11 лет",
+      "specialties": ["Мастерс плавание", "Длинные дистанции", "Открытая вода", "Скоростное плавание"]
+    },
+    {
+      "id": "spa-1",
+      "name": "Мария Иванова",
+      "image": "img/g-7.png",
+      "direction": "SPA",
+      "directions": ["spa"],
+      "experience": "9 лет",
+      "specialties": ["Классический массаж", "Спортивный массаж", "Миофасциальный релиз", "Лимфодренаж"]
+    },
+    {
+      "id": "spa-2",
+      "name": "Анна Смирнова",
+      "image": "img/g-4.png",
+      "direction": "SPA",
+      "directions": ["spa"],
+      "experience": "7 лет",
+      "specialties": ["Тайский массаж", "Стоун-терапия", "Ароматерапия", "Релакс-программы"]
+    },
+    {
+      "id": "spa-3",
+      "name": "Екатерина Новикова",
+      "image": "img/g-5.png",
+      "direction": "SPA",
+      "directions": ["spa"],
+      "experience": "10 лет",
+      "specialties": ["Антицеллюлитный массаж", "Моделирование фигуры", "Обертывания", "SPA-уход за телом"]
+    },
+    {
+      "id": "spa-4",
+      "name": "Александр Федоров",
+      "image": "img/m-7.png",
+      "direction": "SPA",
+      "directions": ["spa"],
+      "experience": "12 лет",
+      "specialties": ["Остеопрактика", "Глубокий тканевый массаж", "Работа с болевыми синдромами", "Постуральная терапия"]
+    },
+    {
+      "id": "spa-5",
+      "name": "Ольга Захарова",
+      "image": "img/g-6.png",
+      "direction": "SPA",
+      "directions": ["spa"],
+      "experience": "8 лет",
+      "specialties": ["Массаж лица", "Лимфодренаж лица", "Косметологический массаж", "SPA-ритуалы"]
+    },
+    {
+      "id": "yoga-1",
+      "name": "Анна Петрова",
+      "image": "img/g-10.png",
+      "direction": "Йога",
+      "directions": ["yoga"],
+      "experience": "8 лет",
+      "specialties": ["Хатха-йога", "Виньяса-флоу", "Пранаяма", "Медитация"]
+    },
+    {
+      "id": "yoga-2",
+      "name": "Мария Сидорова",
+      "image": "img/g-8.png",
+      "direction": "Йога",
+      "directions": ["yoga"],
+      "experience": "6 лет",
+      "specialties": ["Yin Yoga", "Растяжка", "Йога-терапия", "Работа с позвоночником"]
+    },
+    {
+      "id": "yoga-3",
+      "name": "Елена Васильева",
+      "image": "img/g-9.png",
+      "direction": "Йога",
+      "directions": ["yoga"],
+      "experience": "10 лет",
+      "specialties": ["Аштанга-йога", "Силовая йога", "Сурья Намаскар", "Философия йоги"]
+    },
+    {
+      "id": "yoga-4",
+      "name": "Дмитрий Титов",
+      "image": "img/m-8.png",
+      "direction": "Йога",
+      "directions": ["yoga"],
+      "experience": "9 лет",
+      "specialties": ["Кундалини-йога", "Дыхательные практики", "Энергетические техники", "Звуковые медитации"]
+    },
+    {
+      "id": "yoga-5",
+      "name": "Ксения Романова",
+      "image": "img/gg-1.jpg",
+      "direction": "Йога",
+      "directions": ["yoga"],
+      "experience": "5 лет",
+      "specialties": ["Йога для беременных", "Восстановительная йога", "Йога для начинающих", "Мягкие практики"]
+    },
+    {
+      "id": "dance-1",
+      "name": "Ольга Морозова",
+      "image": "img/g-12.png",
+      "direction": "Танцы",
+      "directions": ["dance"],
+      "experience": "12 лет",
+      "specialties": ["Contemporary", "Jazz Modern", "Импровизация", "Сценическое движение"]
+    },
+    {
+      "id": "dance-2",
+      "name": "Иван Соколов",
+      "image": "img/mm-3.jpg",
+      "direction": "Танцы",
+      "directions": ["dance"],
+      "experience": "10 лет",
+      "specialties": ["Hip-Hop", "Salsa", "Bachata", "Urban Dance"]
+    },
+    {
+      "id": "dance-3",
+      "name": "Мария Лебедева",
+      "image": "img/g-11.png",
+      "direction": "Танцы",
+      "directions": ["dance"],
+      "experience": "8 лет",
+      "specialties": ["Ballet Fitness", "Stretching", "Классический танец", "Постановка корпуса"]
+    },
+    {
+      "id": "dance-4",
+      "name": "Анастасия Кравец",
+      "image": "img/g-113.png",
+      "direction": "Танцы",
+      "directions": ["dance"],
+      "experience": "7 лет",
+      "specialties": ["High Heels", "Strip Plastic", "Grace", "Женственность в танце"]
+    },
+    {
+      "id": "dance-5",
+      "name": "Мигель Шестопёров",
+      "image": "img/mm-2.jpg",
+      "direction": "Танцы",
+      "directions": ["dance"],
+      "experience": "9 лет",
+      "specialties": ["Breaking", "Popping", "Locking", "Freestyle"]
+    }
+  ]
+}

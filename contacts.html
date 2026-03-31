@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.5, viewport-fit=cover">
+    <meta name="description" content="Контакты ELITE FITNESS — адрес, телефон, email, часы работы. Запишитесь на пробное занятие.">
+    <title>Контакты | ELITE FITNESS</title>
+
+    <link rel="icon" href="img/fav.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <section class="page-hero">
+        <div class="page-hero__overlay"></div>
+        <div class="page-hero__content">
+            <h1 class="page-hero__title fade-in">Контакты</h1>
+            <p class="page-hero__subtitle fade-in">
+                Свяжитесь с нами или посетите клуб
+            </p>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--color-bg-secondary);" id="map-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Как нас найти</h2>
+                <p class="section-subtitle">
+                    Удобное расположение в центре Челябинска
+                </p>
+            </div>
+
+            <div class="map-wrapper slide-up">
+                <div class="map-content">
+                    <div class="map-info">
+                        <div class="transport-item">
+                            <i class="fas fa-subway"></i>
+                            <div>
+                                <h4>Троллейбус</h4>
+                                <p>Остановка «Зоопарк»: 14 и 17 троллейбус.</p>
+                            </div>
+                        </div>
+                        <div class="transport-item">
+                            <i class="fas fa-bus"></i>
+                            <div>
+                                <h4>Общественный транспорт</h4>
+                                <p>Остановка «Зоопарк»: автобусы 51, 58, 64, 10к </p>
+                            </div>
+                        </div>
+                        <div class="transport-item">
+                            <i class="fas fa-car"></i>
+                            <div>
+                                <h4>Автомобиль</h4>
+                                <p>Бесплатная парковка на 100 мест для членов клуба</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-frame">
+                        <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa246e74d92d04587e3907574877aab3a8ae744d400a5dc69000b1d59fb3c363e&width=100%25&height=500&lang=ru_RU&scroll=true">
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact-form-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Свяжитесь с нами</h2>
+                <p class="section-subtitle">
+                    Оставьте заявку и мы ответим в течение 15 минут
+                </p>
+            </div>
+
+            <div class="contact-form-wrapper slide-up">
+                <form class="contact-form" id="contactForm">
+                    <div class="contact-form__row">
+                        <div class="contact-form__group">
+                            <label class="contact-form__label">Ваше имя *</label>
+                            <input type="text" class="contact-form__input" name="name" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="contact-form__group">
+                            <label class="contact-form__label">Телефон *</label>
+                            <input type="tel" class="contact-form__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                    </div>
+
+                    <div class="contact-form__row">
+                        <div class="contact-form__group">
+                            <label class="contact-form__label">Email</label>
+                            <input type="email" class="contact-form__input" name="email" placeholder="example@mail.ru">
+                        </div>
+                        <div class="contact-form__group">
+                            <label class="contact-form__label">Выбор услуги</label>
+                            <select class="contact-form__select" name="service">
+                                <option value="">Выберите услугу</option>
+                                <option value="gym">Тренажерный зал</option>
+                                <option value="pool">Бассейн</option>
+                                <option value="spa">SPA</option>
+                                <option value="yoga">Йога</option>
+                                <option value="dance">Танцы</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="contact-form__row">
+                        <div class="contact-form__group contact-form__group--full">
+                            <label class="contact-form__label">Сообщение *</label>
+                            <textarea class="contact-form__textarea" name="message" rows="5" placeholder="Ваш вопрос или пожелания..." required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="contact-form__row">
+                        <div class="contact-form__group contact-form__group--full">
+                            <label class="contact-form__checkbox-wrapper">
+                                <input type="checkbox" class="contact-form__checkbox" name="consent" checked required>
+                                <span class="contact-form__checkbox-text">
+                                    Я согласен с <a href="#">политикой конфиденциальности</a> и даю согласие на обработку персональных данных
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="contact-form__submit">
+                        <button type="submit" class="btn btn--primary btn--large">
+                            <span>Отправить сообщение</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

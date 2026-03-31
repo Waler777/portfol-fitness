@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.5, viewport-fit=cover">
+    <meta name="description" content="Команда тренеров ELITE FITNESS — профессионалы своего дела.">
+    <title>Команда | ELITE FITNESS</title>
+
+    <link rel="icon" href="img/fav.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <section class="page-hero">
+        <div class="page-hero__overlay"></div>
+        <div class="page-hero__content">
+            <h1 class="page-hero__title fade-in">Наша команда</h1>
+            <p class="page-hero__subtitle fade-in">
+                Профессиональные тренеры, которые помогут достичь ваших целей
+            </p>
+        </div>
+    </section>
+
+    <!-- ==================== GYM TRAINERS ==================== -->
+    <section class="section" id="gym-trainers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Тренажёрный зал</h2>
+                <p class="section-subtitle">
+                    Специалисты по силовому и функциональному тренингу
+                </p>
+            </div>
+            
+            <div class="team-grid" data-direction="gym">
+                <!-- Карточки тренеров загружаются динамически из data/trainers.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== POOL TRAINERS ==================== -->
+    <section class="section" style="background: var(--color-bg-secondary);" id="pool-trainers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Бассейн</h2>
+                <p class="section-subtitle">
+                    Тренеры по плаванию и аквааэробике
+                </p>
+            </div>
+            
+            <div class="team-grid" data-direction="pool">
+                <!-- Карточки тренеров загружаются динамически из data/trainers.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SPA SPECIALISTS ==================== -->
+    <section class="section" id="spa-trainers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">SPA-комплекс</h2>
+                <p class="section-subtitle">
+                    Специалисты по массажу и восстановлению
+                </p>
+            </div>
+            
+            <div class="team-grid" data-direction="spa">
+                <!-- Карточки тренеров загружаются динамически из data/trainers.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== YOGA INSTRUCTORS ==================== -->
+    <section class="section" style="background: var(--color-bg-secondary);" id="yoga-trainers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Йога</h2>
+                <p class="section-subtitle">
+                    Инструкторы по йоге и медитации
+                </p>
+            </div>
+            
+            <div class="team-grid" data-direction="yoga">
+                <!-- Карточки тренеров загружаются динамически из data/trainers.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== DANCE COACHES ==================== -->
+    <section class="section" id="dance-trainers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Танцы</h2>
+                <p class="section-subtitle">
+                    Хореографы и танцевальные тренеры
+                </p>
+            </div>
+            
+            <div class="team-grid" data-direction="dance">
+                <!-- Карточки тренеров загружаются динамически из data/trainers.json -->
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--color-bg-secondary);" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Запись к тренерам</h2>
+                <p class="section-subtitle">
+                    Выберите тренера и запишитесь на пробную тренировку
+                </p>
+            </div>
+            
+            <div class="booking-form-wrapper slide-up">
+                <form class="booking-form" id="teamBookingForm">
+                    <div class="booking-form__row">
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Ваше имя *</label>
+                            <input type="text" class="booking-form__input" name="name" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Телефон *</label>
+                            <input type="tel" class="booking-form__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Email</label>
+                            <input type="email" class="booking-form__input" name="email" placeholder="example@mail.ru">
+                        </div>
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Желаемая дата</label>
+                            <input type="date" class="booking-form__input" name="date">
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group booking-form__group--full">
+                            <label class="booking-form__label">Выберите тренера</label>
+                            <select class="booking-form__select" name="trainer">
+                                <option value="">Выберите из списка</option>
+                                <option value="mikhail">Михаил Сидоров — Тренажерный зал</option>
+                                <option value="alexei">Алексей Новиков — Функциональный тренинг</option>
+                                <option value="dmitry">Дмитрий Орлов — Пауэрлифтинг</option>
+                                <option value="igor">Светлана Калинина — Реабилитация</option>
+                                <option value="roman">Роман Кузнецов — Бодибилдинг</option>
+                                <option value="dmitry-pool">Дмитрий Волков — Плавание</option>
+                                <option value="elena">Елена Козлова — Аквааэробика</option>
+                                <option value="andrey">Андрей Морозов — Обучение плаванию</option>
+                                <option value=natalia">Наталья Соколова — Аквайога</option>
+                                <option value="sergey">Сергей Лебедев — Скоростное плавание</option>
+                                <option value="maria">Мария Иванова — Классический массаж</option>
+                                <option value="anna">Анна Смирнова — Тайский массаж</option>
+                                <option value="ekaterina">Екатерина Новикова — Антицеллюлитный массаж</option>
+                                <option value="alexander">Александр Федоров — Остеопрактика</option>
+                                <option value="olga">Ольга Захарова — Массаж лица</option>
+                                <option value="anna-yoga">Анна Петрова — Хатха-йога</option>
+                                <option value="maria">Мария Сидорова — Yin Yoga</option>
+                                <option value="elena">Елена Васильева — Аштанга-йога</option>
+                                <option value="dmitry-yoga">Дмитрий Титов — Кундалини-йога</option>
+                                <option value="ksenia">Ксения Романова — Йога для начинающих</option>
+                                <option value="olga-dance">Ольга Морозова — Contemporary</option>
+                                <option value="ivan">Иван Соколов — Hip-Hop</option>
+                                <option value="maria-dance">Мария Лебедева — Ballet Fitness</option>
+                                <option value="anastasia">Анастасия Кравец — High Heels</option>
+                                <option value="maxim">Мигель Шестопёров — Breaking</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group booking-form__group--full">
+                            <label class="booking-form__label">Комментарий</label>
+                            <textarea class="booking-form__textarea" name="comment" rows="4" placeholder="Пожелания по времени, особые предпочтения..."></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__submit">
+                        <button type="submit" class="btn btn--primary btn--large">
+                            <span>Записаться</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <p class="booking-form__disclaimer">
+                            Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta section">
+        <div class="container">
+            <div class="cta__content">
+                <h2 class="cta__title">Готовы начать тренировки?</h2>
+                <p class="cta__text">Запишитесь на пробное занятие с любым тренером</p>
+                <form class="cta__form" id="ctaForm">
+                    <div class="cta__form-row">
+                        <input type="text" class="cta__input" placeholder="Ваше имя" name="name" required>
+                        <input type="tel" class="cta__input" placeholder="+7 (___) ___-__-__" name="phone" required>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--large">
+                        <span>Записаться</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+                <p class="cta__disclaimer">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <!-- ==================== MODAL ==================== -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <button class="modal__close" id="modalClose" aria-label="Закрыть">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal__content">
+                <h3 class="modal__title">Заполните форму и мы перезвоним вам</h3>
+                <p class="modal__subtitle" id="modalTrainerName"></p>
+                <form class="modal__form" id="modalForm">
+                    <div class="modal__group">
+                        <label class="modal__label">Ваше имя *</label>
+                        <input type="text" class="modal__input" name="name" placeholder="Иван Иванов" required>
+                    </div>
+                    <div class="modal__group">
+                        <label class="modal__label">Телефон *</label>
+                        <input type="tel" class="modal__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full btn--large">
+                        <span>Отправить</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/trainers.js"></script>
+</body>
+</html>

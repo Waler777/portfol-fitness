@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.5, viewport-fit=cover">
+    <meta name="description" content="SPA-комплекс ELITE FITNESS — сауна, хаммам, массаж, косметологические процедуры для полного восстановления.">
+    <title>SPA & Wellness | ELITE FITNESS</title>
+
+    <link rel="icon" href="img/fav.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <section class="page-hero page-hero--spa">
+        <div class="page-hero__overlay"></div>
+        <div class="page-hero__content">
+            <h1 class="page-hero__title fade-in">SPA & Wellness</h1>
+            <p class="page-hero__subtitle fade-in">
+                Восстановление тела и души в атмосфере роскоши и спокойствия
+            </p>
+            <a href="#booking" class="btn btn--primary btn--large fade-in">
+                <span>Записаться</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="section" id="spa-services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши услуги</h2>
+                <p class="section-subtitle">
+                    Комплексный подход к вашему расслаблению и восстановлению
+                </p>
+            </div>
+            
+            <div class="spa-services-grid">
+                <div class="spa-service-card slide-up">
+                    <div class="spa-service-card__icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 class="spa-service-card__title">Финская сауна</h3>
+                    <p class="spa-service-card__text">
+                        Классическая сухая сауна с температурой до 90°C. Идеально для детоксикации и расслабления мышц после тренировки.
+                    </p>
+                    <div class="spa-service-card__details">
+                        <span><i class="fas fa-temperature-high"></i> 80-90°C</span>
+                        <span><i class="fas fa-users"></i> до 8 человек</span>
+                    </div>
+                </div>
+                
+                <div class="spa-service-card slide-up" style="transition-delay: 0.1s">
+                    <div class="spa-service-card__icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3 class="spa-service-card__title">Турецкий хаммам</h3>
+                    <p class="spa-service-card__text">
+                        Влажная парная с температурой 45-50°C. Мягкое воздействие на организм, улучшение состояния кожи.
+                    </p>
+                    <div class="spa-service-card__details">
+                        <span><i class="fas fa-temperature-low"></i> 45-50°C</span>
+                        <span><i class="fas fa-tint"></i> 100% влажность</span>
+                    </div>
+                </div>
+                
+                <div class="spa-service-card slide-up" style="transition-delay: 0.2s">
+                    <div class="spa-service-card__icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3 class="spa-service-card__title">Массажные программы</h3>
+                    <p class="spa-service-card__text">
+                        Более 15 видов массажа: от классического до тайского. Профессиональные массажисты с медицинским образованием.
+                    </p>
+                    <div class="spa-service-card__details">
+                        <span><i class="fas fa-clock"></i> 60-120 мин</span>
+                        <span><i class="fas fa-certificate"></i> сертифицировано</span>
+                    </div>
+                </div>
+                
+                <div class="spa-service-card slide-up" style="transition-delay: 0.3s">
+                    <div class="spa-service-card__icon">
+                        <i class="fas fa-hot-tub"></i>
+                    </div>
+                    <h3 class="spa-service-card__title">Джакузи</h3>
+                    <p class="spa-service-card__text">
+                        Гидромассажная ванна с регулируемой температурой. Расслабление и улучшение кровообращения.
+                    </p>
+                    <div class="spa-service-card__details">
+                        <span><i class="fas fa-temperature-high"></i> 36-38°C</span>
+                        <span><i class="fas fa-users"></i> до 4 человек</span>
+                    </div>
+                </div>
+                
+                <div class="spa-service-card slide-up" style="transition-delay: 0.4s">
+                    <div class="spa-service-card__icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3 class="spa-service-card__title">Ледяная купель</h3>
+                    <p class="spa-service-card__text">
+                        Контрастные процедуры после парной. Укрепление иммунитета и улучшение тонуса кожи.
+                    </p>
+                    <div class="spa-service-card__details">
+                        <span><i class="fas fa-temperature-low"></i> 8-12°C</span>
+                        <span><i class="fas fa-heartbeat"></i> закаливание</span>
+                    </div>
+                </div>
+                
+                <div class="spa-service-card slide-up" style="transition-delay: 0.5s">
+                    <div class="spa-service-card__icon">
+                        <i class="fas fa-bed"></i>
+                    </div>
+                    <h3 class="spa-service-card__title">Комната отдыха</h3>
+                    <p class="spa-service-card__text">
+                        Уютное пространство для релаксации после процедур. Травяной чай, ароматерапия, спокойная музыка.
+                    </p>
+                    <div class="spa-service-card__details">
+                        <span><i class="fas fa-coffee"></i> чайная церемония</span>
+                        <span><i class="fas fa-music"></i> релакс-зона</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--color-bg-secondary);" id="spa-massage">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Массажные программы</h2>
+                <p class="section-subtitle">
+                    Выберите подходящий вид массажа
+                </p>
+            </div>
+            
+            <div class="massage-grid">
+                <div class="massage-card slide-up">
+                    <div class="massage-card__header">
+                        <h3 class="massage-card__title">Классический массаж</h3>
+                        <span class="massage-card__duration">60 мин</span>
+                    </div>
+                    <p class="massage-card__description">
+                        Традиционный массаж всего тела для снятия напряжения и улучшения кровообращения
+                    </p>
+                    <div class="massage-card__price">
+                        <span class="massage-card__amount">4 500</span>
+                        <span class="massage-card__currency">₽</span>
+                    </div>
+                </div>
+                
+                <div class="massage-card slide-up" style="transition-delay: 0.1s">
+                    <div class="massage-card__header">
+                        <h3 class="massage-card__title">Спортивный массаж</h3>
+                        <span class="massage-card__duration">90 мин</span>
+                    </div>
+                    <p class="massage-card__description">
+                        Глубокая проработка мышц для восстановления после интенсивных тренировок
+                    </p>
+                    <div class="massage-card__price">
+                        <span class="massage-card__amount">6 500</span>
+                        <span class="massage-card__currency">₽</span>
+                    </div>
+                </div>
+                
+                <div class="massage-card slide-up" style="transition-delay: 0.2s">
+                    <div class="massage-card__header">
+                        <h3 class="massage-card__title">Тайский массаж</h3>
+                        <span class="massage-card__duration">120 мин</span>
+                    </div>
+                    <p class="massage-card__description">
+                        Древняя техника с элементами растяжки для гармонии тела и духа
+                    </p>
+                    <div class="massage-card__price">
+                        <span class="massage-card__amount">8 500</span>
+                        <span class="massage-card__currency">₽</span>
+                    </div>
+                </div>
+                
+                <div class="massage-card slide-up" style="transition-delay: 0.3s">
+                    <div class="massage-card__header">
+                        <h3 class="massage-card__title">Антицеллюлитный массаж</h3>
+                        <span class="massage-card__duration">60 мин</span>
+                    </div>
+                    <p class="massage-card__description">
+                        Интенсивная техника для улучшения тонуса кожи и уменьшения проявлений целлюлита
+                    </p>
+                    <div class="massage-card__price">
+                        <span class="massage-card__amount">5 000</span>
+                        <span class="massage-card__currency">₽</span>
+                    </div>
+                </div>
+                
+                <div class="massage-card slide-up" style="transition-delay: 0.4s">
+                    <div class="massage-card__header">
+                        <h3 class="massage-card__title">Расслабляющий массаж</h3>
+                        <span class="massage-card__duration">60 мин</span>
+                    </div>
+                    <p class="massage-card__description">
+                        Мягкие техники с ароматическими маслами для глубокой релаксации
+                    </p>
+                    <div class="massage-card__price">
+                        <span class="massage-card__amount">4 500</span>
+                        <span class="massage-card__currency">₽</span>
+                    </div>
+                </div>
+                
+                <div class="massage-card slide-up" style="transition-delay: 0.5s">
+                    <div class="massage-card__header">
+                        <h3 class="massage-card__title">Массаж лица</h3>
+                        <span class="massage-card__duration">45 мин</span>
+                    </div>
+                    <p class="massage-card__description">
+                        Лимфодренажный массаж для улучшения цвета лица и уменьшения отёчности
+                    </p>
+                    <div class="massage-card__price">
+                        <span class="massage-card__amount">3 500</span>
+                        <span class="massage-card__currency">₽</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="spa-pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">SPA-программы</h2>
+                <p class="section-subtitle">
+                    Готовые комплексы процедур для максимального расслабления
+                </p>
+            </div>
+            
+            <div class="spa-programs-grid">
+                <div class="spa-program-card slide-up">
+                    <div class="spa-program-card__image">
+                        <img src="img/g-spa.jpeg" alt="Релакс" loading="lazy">
+                    </div>
+                    <div class="spa-program-card__content">
+                        <h3 class="spa-program-card__title">Программа «Релакс»</h3>
+                        <ul class="spa-program-card__list">
+                            <li><i class="fas fa-check"></i> Посещение сауны и хаммама</li>
+                            <li><i class="fas fa-check"></i> Расслабляющий массаж (60 мин)</li>
+                            <li><i class="fas fa-check"></i> Чайная церемония</li>
+                        </ul>
+                        <div class="spa-program-card__footer">
+                            <div class="spa-program-card__price">
+                                <span>7 500 ₽</span>
+                            </div>
+                            <a href="#booking" class="btn btn--primary">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="spa-program-card slide-up" style="transition-delay: 0.1s">
+                    <div class="spa-program-card__image">
+                        <img src="img/g-sap1.webp" alt="Восстановление" loading="lazy">
+                    </div>
+                    <div class="spa-program-card__content">
+                        <h3 class="spa-program-card__title">Программа «Восстановление»</h3>
+                        <ul class="spa-program-card__list">
+                            <li><i class="fas fa-check"></i> Спортивный массаж (90 мин)</li>
+                            <li><i class="fas fa-check"></i> Посещение сауны</li>
+                            <li><i class="fas fa-check"></i> Джакузи</li>
+                            <li><i class="fas fa-check"></i> Восстанавливающий коктейль</li>
+                        </ul>
+                        <div class="spa-program-card__footer">
+                            <div class="spa-program-card__price">
+                                <span>9 900 ₽</span>
+                            </div>
+                            <a href="#booking" class="btn btn--primary">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="spa-program-card slide-up" style="transition-delay: 0.2s">
+                    <div class="spa-program-card__image">
+                        <img src="img/g-spa3.jpg" alt="Премиум" loading="lazy">
+                    </div>
+                    <div class="spa-program-card__content">
+                        <h3 class="spa-program-card__title">Программа «Премиум»</h3>
+                        <ul class="spa-program-card__list">
+                            <li><i class="fas fa-check"></i> Тайский массаж (120 мин)</li>
+                            <li><i class="fas fa-check"></i> Хаммам с пилингом</li>
+                            <li><i class="fas fa-check"></i> Массаж лица (45 мин)</li>
+                            <li><i class="fas fa-check"></i> Обертывание</li>
+                            <li><i class="fas fa-check"></i> Чайная церемония</li>
+                        </ul>
+                        <div class="spa-program-card__footer">
+                            <div class="spa-program-card__price">
+                                <span>15 900 ₽</span>
+                            </div>
+                            <a href="#booking" class="btn btn--primary">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SPA SPECIALISTS ==================== -->
+    <section class="section" id="spa-trainers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши специалисты</h2>
+                <p class="section-subtitle">
+                    Профессиональные массажисты и SPA-терапевты
+                </p>
+            </div>
+
+            <div class="team-grid">
+                <!-- Карточки тренеров загружаются динамически из data/trainers.json -->
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--color-bg-secondary);" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Запись на процедуры</h2>
+                <p class="section-subtitle">
+                    Оставьте заявку и мы свяжемся с вами для подтверждения времени
+                </p>
+            </div>
+            
+            <div class="booking-form-wrapper slide-up">
+                <form class="booking-form" id="spaBookingForm">
+                    <div class="booking-form__row">
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Ваше имя *</label>
+                            <input type="text" class="booking-form__input" name="name" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Телефон *</label>
+                            <input type="tel" class="booking-form__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Email</label>
+                            <input type="email" class="booking-form__input" name="email" placeholder="example@mail.ru">
+                        </div>
+                        <div class="booking-form__group">
+                            <label class="booking-form__label">Желаемая дата</label>
+                            <input type="date" class="booking-form__input" name="date">
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group booking-form__group--full">
+                            <label class="booking-form__label">Выберите услугу</label>
+                            <select class="booking-form__select" name="service">
+                                <option value="">Выберите из списка</option>
+                                <option value="relax">Программа «Релакс» — 7 500 ₽</option>
+                                <option value="recovery">Программа «Восстановление» — 9 900 ₽</option>
+                                <option value="premium">Программа «Премиум» — 15 900 ₽</option>
+                                <option value="classic-massage">Классический массаж — 4 500 ₽</option>
+                                <option value="sport-massage">Спортивный массаж — 6 500 ₽</option>
+                                <option value="thai-massage">Тайский массаж — 8 500 ₽</option>
+                                <option value="sauna">Посещение сауны — 1 500 ₽</option>
+                                <option value="hammam">Посещение хаммама — 1 500 ₽</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__row">
+                        <div class="booking-form__group booking-form__group--full">
+                            <label class="booking-form__label">Комментарий</label>
+                            <textarea class="booking-form__textarea" name="comment" rows="4" placeholder="Пожелания по времени, особые предпочтения..."></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-form__submit">
+                        <button type="submit" class="btn btn--primary btn--large">
+                            <span>Записаться</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <p class="booking-form__disclaimer">
+                            Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <!-- ==================== MODAL ==================== -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <button class="modal__close" id="modalClose" aria-label="Закрыть">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal__content">
+                <h3 class="modal__title">Заполните форму и мы перезвоним вам</h3>
+                <p class="modal__subtitle" id="modalTrainerName"></p>
+                <form class="modal__form" id="modalForm">
+                    <div class="modal__group">
+                        <label class="modal__label">Ваше имя *</label>
+                        <input type="text" class="modal__input" name="name" placeholder="Иван Иванов" required>
+                    </div>
+                    <div class="modal__group">
+                        <label class="modal__label">Телефон *</label>
+                        <input type="tel" class="modal__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full btn--large">
+                        <span>Отправить</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/trainers.js"></script>
+</body>
+</html>

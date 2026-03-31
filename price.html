@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.5, viewport-fit=cover">
+    <meta name="description" content="Цены на абонементы и услуги ELITE FITNESS. Выгодные предложения на посещение фитнес-клуба.">
+    <title>Прайс | ELITE FITNESS</title>
+
+    <link rel="icon" href="img/fav.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <section class="page-hero">
+        <div class="page-hero__overlay"></div>
+        <div class="page-hero__content">
+            <h1 class="page-hero__title fade-in">Прайс-лист</h1>
+            <p class="page-hero__subtitle fade-in">
+                Выберите подходящий абонемент и начните путь к лучшей версии себя
+            </p>
+            <a href="index.html#booking" class="btn btn--primary btn--large fade-in">
+                <span>Записаться</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Клубные карты</h2>
+                <p class="section-subtitle">
+                    Выгодные предложения на посещение нашего фитнес-клуба
+                </p>
+            </div>
+
+            <div class="pricing__grid" id="pricingGrid">
+                <!-- Plan 1: Старт -->
+                <div class="pricing-card slide-up" data-plan="start">
+                    <div class="pricing-card__header">
+                        <h3 class="pricing-card__title">Старт</h3>
+                        <p class="pricing-card__description">Для начинающих</p>
+                    </div>
+                    <div class="pricing-card__price">
+                        <span class="pricing-card__currency">₽</span>
+                        <span class="pricing-card__amount">2 900</span>
+                        <span class="pricing-card__period">/мес</span>
+                    </div>
+                    <ul class="pricing-card__features">
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Тренажёрный зал</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Раздевалка и душ</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Вводный инструктаж</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Шкафчик для вещей</span>
+                        </li>
+                        <li class="pricing-card__feature pricing-card__feature--disabled">
+                            <i class="fas fa-times"></i>
+                            <span>Бассейн</span>
+                        </li>
+                        <li class="pricing-card__feature pricing-card__feature--disabled">
+                            <i class="fas fa-times"></i>
+                            <span>SPA-комплекс</span>
+                        </li>
+                        <li class="pricing-card__feature pricing-card__feature--disabled">
+                            <i class="fas fa-times"></i>
+                            <span>Групповые программы</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn--primary btn--full pricing-card__btn" data-plan="Старт" data-price="2 900" data-period="/мес">
+                        <span>Выбрать</span>
+                    </button>
+                </div>
+
+                <!-- Plan 2: Безлимит (Popular) -->
+                <div class="pricing-card pricing-card--popular slide-up selected" data-plan="unlimited" style="transition-delay: 0.1s">
+                    <div class="pricing-card__badge">Популярный</div>
+                    <div class="pricing-card__header">
+                        <h3 class="pricing-card__title">Безлимит</h3>
+                        <p class="pricing-card__description">Оптимальный выбор</p>
+                    </div>
+                    <div class="pricing-card__price">
+                        <span class="pricing-card__currency">₽</span>
+                        <span class="pricing-card__amount">4 900</span>
+                        <span class="pricing-card__period">/мес</span>
+                    </div>
+                    <ul class="pricing-card__features">
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Все зоны клуба</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Тренажёрный зал</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Бассейн (25 метров)</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Групповые программы</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Раздевалка и душ</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Шкафчик для вещей</span>
+                        </li>
+                        <li class="pricing-card__feature pricing-card__feature--disabled">
+                            <i class="fas fa-times"></i>
+                            <span>SPA-комплекс</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn--primary btn--full pricing-card__btn" data-plan="Безлимит" data-price="4 900" data-period="/мес">
+                        <span>Выбрать</span>
+                    </button>
+                </div>
+
+                <!-- Plan 3: Премиум -->
+                <div class="pricing-card slide-up" data-plan="premium" style="transition-delay: 0.2s">
+                    <div class="pricing-card__header">
+                        <h3 class="pricing-card__title">Премиум</h3>
+                        <p class="pricing-card__description">Максимум возможностей</p>
+                    </div>
+                    <div class="pricing-card__price">
+                        <span class="pricing-card__currency">₽</span>
+                        <span class="pricing-card__amount">8 900</span>
+                        <span class="pricing-card__period">/мес</span>
+                    </div>
+                    <ul class="pricing-card__features">
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Все зоны клуба</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Тренажёрный зал</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Бассейн (25 метров)</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Групповые программы</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>SPA-комплекс (сауна, хаммам)</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>4 персональные тренировки</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Персональный шкафчик</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Гостевые визиты (2 в месяц)</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn--primary btn--full pricing-card__btn" data-plan="Премиум" data-price="8 900" data-period="/мес">
+                        <span>Выбрать</span>
+                    </button>
+                </div>
+
+                <!-- Plan 4: Годовой -->
+                <div class="pricing-card slide-up" data-plan="yearly" style="transition-delay: 0.3s">
+                    <div class="pricing-card__header">
+                        <h3 class="pricing-card__title">Годовой</h3>
+                        <p class="pricing-card__description">Лучшая цена за год</p>
+                    </div>
+                    <div class="pricing-card__price">
+                        <span class="pricing-card__currency">₽</span>
+                        <span class="pricing-card__amount">59 900</span>
+                        <span class="pricing-card__period">/год</span>
+                    </div>
+                    <ul class="pricing-card__features">
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Все зоны клуба</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Тренажёрный зал</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Бассейн (25 метров)</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Групповые программы</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>SPA-комплекс</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>10 персональных тренировок</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Персональный шкафчик</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <i class="fas fa-check"></i>
+                            <span>Заморозка на 30 дней</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn--primary btn--full pricing-card__btn" data-plan="Годовой" data-price="59 900" data-period="/год">
+                        <span>Выбрать</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--color-bg-secondary);" id="additional">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Дополнительные услуги</h2>
+                <p class="section-subtitle">
+                    Расширьте возможности вашего абонемента
+                </p>
+            </div>
+
+            <div class="price-list">
+                <div class="price-list-item slide-up">
+                    <div class="price-list-item__content">
+                        <h4 class="price-list-item__title">Персональная тренировка</h4>
+                        <p class="price-list-item__description">Индивидуальная работа с тренером (60 мин)</p>
+                    </div>
+                    <div class="price-list-item__price">2 500 ₽</div>
+                </div>
+
+                <div class="price-list-item slide-up" style="transition-delay: 0.1s">
+                    <div class="price-list-item__content">
+                        <h4 class="price-list-item__title">План питания</h4>
+                        <p class="price-list-item__description">Индивидуальный рацион от фитнес-нутрициолога</p>
+                    </div>
+                    <div class="price-list-item__price">5 000 ₽</div>
+                </div>
+
+                <div class="price-list-item slide-up" style="transition-delay: 0.2s">
+                    <div class="price-list-item__content">
+                        <h4 class="price-list-item__title">Массаж спортивный</h4>
+                        <p class="price-list-item__description">Восстановительный массаж после тренировок (60 мин)</p>
+                    </div>
+                    <div class="price-list-item__price">3 500 ₽</div>
+                </div>
+
+                <div class="price-list-item slide-up" style="transition-delay: 0.3s">
+                    <div class="price-list-item__content">
+                        <h4 class="price-list-item__title">Заморозка абонемента</h4>
+                        <p class="price-list-item__description">Приостановка действия карты (до 30 дней)</p>
+                    </div>
+                    <div class="price-list-item__price">1 000 ₽</div>
+                </div>
+
+                <div class="price-list-item slide-up" style="transition-delay: 0.4s">
+                    <div class="price-list-item__content">
+                        <h4 class="price-list-item__title">Гостевой визит</h4>
+                        <p class="price-list-item__description">Разовое посещение клуба для гостя</p>
+                    </div>
+                    <div class="price-list-item__price">800 ₽</div>
+                </div>
+
+                <div class="price-list-item slide-up" style="transition-delay: 0.5s">
+                    <div class="price-list-item__content">
+                        <h4 class="price-list-item__title">Аренда шкафчика</h4>
+                        <p class="price-list-item__description">Индивидуальный шкафчик на месяц</p>
+                    </div>
+                    <div class="price-list-item__price">500 ₽</div>
+                </div>
+
+                <div class="price-list-item slide-up" style="transition-delay: 0.6s">
+                    <div class="price-list-item__content">
+                        <h4 class="price-list-item__title">Полотенце в аренду</h4>
+                        <p class="price-list-item__description">Большое банное полотенце</p>
+                    </div>
+                    <div class="price-list-item__price">200 ₽</div>
+                </div>
+
+                <div class="price-list-item slide-up" style="transition-delay: 0.7s">
+                    <div class="price-list-item__content">
+                        <h4 class="price-list-item__title">Фитнес-браслет</h4>
+                        <p class="price-list-item__description">Для доступа в клуб и оплаты услуг</p>
+                    </div>
+                    <div class="price-list-item__price">1 500 ₽</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Частые вопросы</h2>
+                <p class="section-subtitle">
+                    Ответы на популярные вопросы о наших абонементах
+                </p>
+            </div>
+
+            <div class="faq">
+                <div class="faq-item slide-up">
+                    <button class="faq-item__header">
+                        <span class="faq-item__title">Можно ли заморозить абонемент?</span>
+                        <span class="faq-item__icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-item__content">
+                        <p>Да, вы можете заморозить абонемент на срок до 30 дней. Услуга предоставляется за дополнительную плату (1 000 ₽) или включена в годовой абонемент.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item slide-up" style="transition-delay: 0.1s">
+                    <button class="faq-item__header">
+                        <span class="faq-item__title">Есть ли пробное занятие?</span>
+                        <span class="faq-item__icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-item__content">
+                        <p>Да, мы предлагаем бесплатное пробное посещение. Вы можете ознакомиться с клубом, посмотреть тренажёрный зал и получить консультацию администратора.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item slide-up" style="transition-delay: 0.2s">
+                    <button class="faq-item__header">
+                        <span class="faq-item__title">Можно ли вернуть абонемент?</span>
+                        <span class="faq-item__icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-item__content">
+                        <p>Да, вы можете вернуть абонемент в течение 14 дней с момента покупки при условии, что он не был активирован. После активации возврат возможен пропорционально неиспользованным дням.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item slide-up" style="transition-delay: 0.3s">
+                    <button class="faq-item__header">
+                        <span class="faq-item__title">Есть ли скидки для студентов?</span>
+                        <span class="faq-item__icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-item__content">
+                        <p>Да, студенты дневных отделений получают скидку 15% на абонементы «Старт» и «Безлимит». При предъявлении студенческого билета.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item slide-up" style="transition-delay: 0.4s">
+                    <button class="faq-item__header">
+                        <span class="faq-item__title">Можно ли привести гостя?</span>
+                        <span class="faq-item__icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-item__content">
+                        <p>Да, владельцы абонементов «Премиум» и «Годовой» могут привести до 2 гостей в месяц бесплатно. Для остальных абонементов гостевой визит оплачивается отдельно (800 ₽).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cta" style="background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover));" id="cta">
+        <div class="container">
+            <div class="cta__content">
+                <h2 class="cta__title">Остались вопросы?</h2>
+                <p class="cta__text">
+                    Наши менеджеры помогут подобрать идеальный абонемент и ответят на все вопросы
+                </p>
+                <form class="cta__form" id="ctaForm">
+                    <div class="cta__form-row">
+                        <input type="text" class="cta__input" name="name" placeholder="Ваше имя" required>
+                        <input type="tel" class="cta__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+                        <button type="submit" class="btn btn--primary">
+                            <span>Получить консультацию</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MODAL ==================== -->
+    <div class="modal" id="pricingModal">
+        <div class="modal__overlay"></div>
+        <div class="modal__container">
+            <div class="modal__content">
+                <button class="modal__close" aria-label="Закрыть">
+                    <i class="fas fa-times"></i>
+                </button>
+                
+                <div class="modal__header">
+                    <h2 class="modal__title">Запись на тариф</h2>
+                    <p class="modal__subtitle">Оставьте заявку и мы свяжемся с вами</p>
+                </div>
+
+                <div class="modal__plan-info">
+                    <div class="modal__plan-name">
+                        <i class="fas fa-tag"></i>
+                        <span id="modalPlanName">Тариф</span>
+                    </div>
+                    <div class="modal__plan-price">
+                        <span id="modalPlanPrice">0 ₽</span>
+                        <span id="modalPlanPeriod">/мес</span>
+                    </div>
+                </div>
+
+                <form class="modal__form" id="modalForm">
+                    <div class="modal__form-group">
+                        <label class="modal__label" for="modalName">Ваше имя *</label>
+                        <input 
+                            type="text" 
+                            id="modalName" 
+                            name="name" 
+                            class="modal__input" 
+                            placeholder="Иван Иванов"
+                            required
+                        >
+                    </div>
+
+                    <div class="modal__form-group">
+                        <label class="modal__label" for="modalPhone">Телефон *</label>
+                        <input 
+                            type="tel" 
+                            id="modalPhone" 
+                            name="phone" 
+                            class="modal__input" 
+                            placeholder="+7 (___) ___-__-__"
+                            required
+                        >
+                    </div>
+
+                    <div class="modal__form-group">
+                        <label class="modal__label" for="modalEmail">Email</label>
+                        <input 
+                            type="email" 
+                            id="modalEmail" 
+                            name="email" 
+                            class="modal__input" 
+                            placeholder="example@mail.ru"
+                        >
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--large btn--full">
+                        <span>Отправить заявку</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+
+                    <p class="modal__disclaimer">
+                        Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
